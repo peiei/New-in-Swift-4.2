@@ -19,8 +19,9 @@ view.layer.isHidden
 view.layer.isHidden.toggle()
 </code></pre></div>
 
-#2. Sequence and Collection algorithms#
-#序列和集合的算法#
+2. Sequence and Collection algorithms
+====
+序列和集合的算法
 ====
 2.1 allSatisfy
 ------
@@ -89,6 +90,72 @@ let caseList = CompassDirection.allCases
 </code></pre>
 4. Random numbers
 =====
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  
  
