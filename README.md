@@ -29,16 +29,14 @@ areAllSmallerThanTen
 let areAllEven = digits.allSatisfy { $0 % 2 == 0 }
 areAllEven
 </code></pre>
-</div>
 ## 2.2 last(where:), lastIndex(where:), and lastIndex(of:) 
-序列（Sequence）添加新的方法last(where:),返回满足条件的所有元素的最后一个元素（可选类型，所以可能返回nil）<br/>
+序列（Sequence）添加新的方法last(where:),返回满足条件的所有元素的最后一个元素（可选类型，所以可能返回nil）  
 代码：
-<pre><code>
-let digits = 0...9
-let lastEvenDigit = digits.last { $0 % 2 == 0 }
-lastEvenDigit
-</code></pre>
-<div>集合添加新的方法 lastIndex(where:)表示返回满足条件的所有元素的最后一个元素的坐标，（可选类型，所以可能返回nil）<br/> lastIndex(of:)表示指定的元素出现在数列中的最后一个的坐标<br/>(两者区别：一个是条件，一个是特定元素)<br/>
+
+	let digits = 0...9
+	let lastEvenDigit = digits.last { $0 % 2 == 0 }
+	lastEvenDigit
+<div>集合添加新的方法 lastIndex(where:)表示返回满足条件的所有元素的最后一个元素的坐标，（可选类型，所以可能返回nil）<br/> lastIndex(of:)表示指定的元素出现在数列中的最后一个的坐标<br/>(两者区别：一个是条件，一个是特定元素)  
 代码：
 <pre><code>
 let students = ["Kofi", "Abena", "Peter", "Kweku", "Akosua"]
@@ -54,7 +52,7 @@ if let i = students.lastIndex(of: "Ben") {
      }
 print(students)
  /// Prints "["Ben", "Ivy", "Jordell", "Benjamin", "Max"]"
- </code></pre>
+</code></pre>
  
 ## 2.3 removeAll(where:)
 移除符合条件的所有元素, 与filter方法相反，一个是符合条件移除，一个是符合条件筛选出来。  
